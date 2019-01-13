@@ -1,0 +1,122 @@
+/* -------------------------- */
+/* ---    FONT STYLES     --- */
+/* -------------------------- */
+$default-font-size:  16px;
+
+// base fonts
+$base-font-family: 'Esteban', Georgia, 'Times New Roman', serif;
+$base-font-weight:  normal;
+$base-line-height:  1.7;
+$base-font-style:   normal;
+$base-font-size:    1rem;
+
+// title fonts
+$title-font-family:  'Montserrat', Helvetica, Arial, sans-serif;
+$title-font-size:     48px;
+$title-font-weight:   700;
+$title-font-color:    #0F0E0E;
+
+/* -------------------------- */
+/* - GLOBAL STYLES & COLORS - */
+/* -------------------------- */
+$brand-color1: #ffffff;
+$brand-color2: #cd282f;
+
+$default-bg-color: $brand-color1;
+$header-menu-color: $brand-color1;
+$header-logo-color: $brand-color1;
+
+$link-color:       rgb(85, 17, 20);
+$link-color-hover: #cd282f;
+
+$grey-color:       #aaa;
+$base-text-color: #0F0E0E;
+$base-background-color: #161616;
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+$header-color: #0f0e0e;
+
+/* -------------------------- */
+/* ---   CUSTOM MIX INS   --- */
+/* -------------------------- */
+// set rem font size with pixel fallback
+@function calculateRem($size) {
+  $remSize: $size / $default-font-size;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+// breakpoints
+$breakpoints: (
+  'small'  : ( min-width:  620px ),
+  'medium' : ( min-width:  820px ),
+  'large'  : ( min-width: 1024px ),
+  'xlarge' : ( min-width: 1140px )
+);
+@mixin respond-to($name) {
+  @if map-has-key($breakpoints, $name) {
+    @media #{inspect(map-get($breakpoints, $name))} {
+      @content;
+    }
+  }
+  // If the key doesn't exist in the map
+  @else {
+    @warn "Hey dork, no value defined for `#{$breakpoint}`. "
+        + "Double check you have it in the `$breakpoints` map.";
+  }
+}
+
+// transitions
+@mixin transition($args...) {
+  -webkit-transition: $args;
+     -moz-transition: $args;
+      -ms-transition: $args;
+       -o-transition: $args;
+          transition: $args;
+}
+
+// generic transform
+@mixin transform($transforms) {
+       -moz-transform: $transforms;
+         -o-transform: $transforms;
+        -ms-transform: $transforms;
+    -webkit-transform: $transforms;
+            transform: $transforms;
+}
+// rotate
+@mixin rotate ($deg) {
+  @include transform(rotate(#{$deg}deg));
+}
+ 
+// scale
+@mixin scale($scale) {
+     @include transform(scale($scale));
+} 
+// translate
+@mixin translate ($x, $y) {
+   @include transform(translate($x, $y));
+}
+// skew
+@mixin skew ($x, $y) {
+   @include transform(skew(#{$x}deg, #{$y}deg));
+}
+//transform origin
+@mixin transform-origin ($origin) {
+        moz-transform-origin: $origin;
+         -o-transform-origin: $origin;
+        -ms-transform-origin: $origin;
+    -webkit-transform-origin: $origin;
+            transform-origin: $origin;
+}
+

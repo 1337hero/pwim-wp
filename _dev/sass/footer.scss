@@ -1,0 +1,27 @@
+.mobile-reg {
+    background-color: #ffffff;
+    border-top: 1px solid #dfdfdf;
+    bottom: 0;
+    height: 83px;
+    padding: 18px;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+
+    .wrapper {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobile-cta {
+        font-family: $title-font-family;
+        font-weight: $title-font-weight;
+        font-size: .75rem;
+    }
+
+    @include respond-to(large) {
+        display: none;
+    }
+}

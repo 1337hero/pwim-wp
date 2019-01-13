@@ -1,0 +1,133 @@
+
+
+a.sidebar-btn,
+.sidebar-menu ul a,
+.sidebar-menu a,
+.sidebar-info a,
+.home-navigation a{
+    font-family: Arial, sans-serif;
+}
+
+.sidebar-navigation {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    padding: 0 40px 50px 40px;
+    background-color: $base-background-color;
+
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch; 
+
+    -webkit-transition: left 0.1s ease-in-out;  
+    -moz-transition: left 0.1s ease-in-out; 
+    -o-transition: left 0.1s ease-in-out;
+    transition: left 0.1s ease-in-out;
+    a.btn {
+        float: none;
+        width: 100%;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        font-size: 1.2em;
+        height: auto;
+        padding: 5px 0;
+    }
+}
+
+.sidebar-navigation.open{
+    left: 0;
+}
+
+.sidebar-menu {
+    display: block;
+    width: 100%;
+    margin-bottom: 45px;
+   li {
+        text-align: center;
+        border-bottom: 1px solid #434343;
+   }
+   a {
+        position: relative;
+        display: block;
+
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        -webkit-touch-callout: none;
+
+        color: #fff !important;
+
+        font-size: 1.2em;
+        line-height: 1;
+        text-transform: uppercase;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+}
+
+
+a.close-menu{
+    display: block;
+
+    top: 0;
+    left: -40px;
+
+    cursor: pointer;
+    z-index: 999;
+
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+
+    text-align: center;
+    font-size: 42px;
+    color: #fff;
+
+    @media only screen and (min-width: 480px) {
+        width: 74px;
+        height: 74px;
+        line-height: 74px;
+    }
+}
+
+.sidebar-info {
+    width: 100%;
+    clear: both;
+    margin: 0;
+    li {
+        display: block;
+        width: 100%;
+        margin-bottom: 45px;
+        overflow: hidden;
+        color: #787878;
+        text-align: center;
+        font-size: 14px;
+    }
+    li.share a {
+        color: #f2f2f2;
+    }
+    li.share span {
+        background-color: #cd282f;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        font-size: 32px;
+        width: 64px;
+        height: 64px;
+        line-height: 64px;
+        margin-right: 10px;
+    }
+}
+
+
+.sidebar-info li:nth-of-type(4){
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid #434343;
+}
+
