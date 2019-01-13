@@ -87,6 +87,7 @@
                      // set the video viewport to the window size
                      $('.video-container').width($(window).width());
                      $('.video-container').height($(window).height());
+                     $('.hero-banner').height($(window).height());
 
                      // use largest scale factor of horizontal/vertical
                      var scale_h = $(window).width() / vid_w_orig;

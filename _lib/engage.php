@@ -27,7 +27,7 @@ function load_theme() {
 
     // Register Scripts
     wp_register_script( 'scripts', get_stylesheet_directory_uri() . '/assets/scripts.min.js' );
-    wp_register_script( 'video',   get_stylesheet_directory_uri() . '/assets/video.min.js' );
+    wp_register_script( 'video',   get_stylesheet_directory_uri() . '/assets/video.js' );
 
     // Inject the site styling into the header
     wp_enqueue_style( 'main-styling', get_stylesheet_directory_uri() . '/assets/styles.min.css' );

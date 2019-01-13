@@ -21,7 +21,7 @@
       
         <main class="main" role="main">
 
-            <section class="summary" data-aos="slide-up" data-aos-offset="200" data-aos-duration="800" data-aos-delay="0">
+            <section id="scrollto" class="summary" data-aos="slide-up" data-aos-offset="200" data-aos-duration="800" data-aos-delay="0">
                 <div class="wrapper">
                     <h1>POWER WAGONS IN MOAB</h1>
                     <div><span>2019</span></div>

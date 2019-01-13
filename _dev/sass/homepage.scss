@@ -1,36 +1,104 @@
 /* HOMEPAGE VIDEO */
-.video-container {
+// wraps video, scroll & jumbo-tron
+.hero-banner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
     display: none;
-    background-color: #000;
 
     @include respond-to(large) {
         display: block;
-        
-        top: 0;
-        bottom: 0;
-        left: 0;
-
-        width: 100%;
-        height: 100vh;
     }
 }
 
-.jumbo-tron {
-    position: absolute;
+// video container
+.video-container {
+    top: 0;
+    bottom: 0;
     left: 0;
-    top:90vh;
 
     width: 100%;
+    height: 100vh;
+}
 
-    .big-date {
+// large date & text
+.jumbo-tron {
+    position: absolute;
+    overflow: visible;
+    left: 0;
+    bottom: 0;
 
+    width: 100%;
+    height: 0;
+
+    .usp {
+        position: absolute;
+        bottom: 50px;
+        left: 50px;
+        width: 475px;
+        height: 260px;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        color: $brand-color1;
+        font-family: $title-font-family;
+        line-height: normal;
+
+        text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
     }
 
-    .day {
-        color: #fff;
-        font-size: 128rem;
+    .big-day,
+    .mon-yr {
+        width: 50%;
+    }
+
+    .big-day {
+        align-self: flex-start;
+        font-size: 12rem;
+        height: 220px;
+    }
+
+    .mon-yr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .month {
+        position: relative;
+        top: 40px;
+        font-size: 5rem;
+    }
+    .year {
+        position: relative;
+        top: 25px;
+        font-size: 3.785rem;
+    }
+    .message {
+        width: 100%;
+        font-size: 1.5rem;
+        border-top: 1px solid rgba(255,255,255,.7);
+        padding-top: 10px;
     }
 }
+
+// scroll btn
+a.btn-scroll {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    @include translate(-50%,0);
+
+    color: $brand-color1;
+    display: block;
+    
+    font-size: 2rem;
+    line-height: normal;
+
+    z-index: 1;
+}
+
 
 /* SUMMARY SECTION */
 .summary {
