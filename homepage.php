@@ -17,10 +17,11 @@
         <?php get_template_part( '_inc/global',  'header' ) ?>
         <?php get_template_part( '_inc/global',  'banner' ) ?>
         <?php get_template_part( '_inc/homepage', 'video' ) ?>
+        <?php get_template_part( '_inc/homepage', 'countdown' ) ?>
       
         <main class="main" role="main">
 
-            <section class="summary">
+            <section class="summary" data-aos="slide-up" data-aos-offset="200" data-aos-duration="800" data-aos-delay="0">
                 <div class="wrapper">
                     <h1>POWER WAGONS IN MOAB</h1>
                     <div><span>2019</span></div>

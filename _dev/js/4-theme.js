@@ -44,7 +44,7 @@ $(function() {
 
             var newscroll = el.scrollTop();
 
-            if( newscroll >= headerHeight + 90 ){
+            if( newscroll >= headerHeight + 75 ){
 
                 if( !header.hasClass('reveal') ){
                     header.addClass('reveal');

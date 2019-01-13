@@ -22,7 +22,7 @@ body {
     padding:0;
     
     // page
-    background: $base-background-color;
+    background: $default-bg-color;
     color:      $base-text-color;
 
     // font styles
@@ -91,7 +91,8 @@ button {
 .video-container,
 .main,
 .summary,
-.home-navigation {
+.home-navigation,
+.footer-main {
     position: relative;
     overflow: hidden;
     display: block;

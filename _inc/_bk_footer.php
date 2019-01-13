@@ -1,7 +1,7 @@
 <footer class="footer">
 
     <nav>
-        <?php wp_nav_menu( array( 'container'=> false, 'theme_location' => 'Nav-3', 'menu_class' => 'footer-menu' ) ); ?>
+        <?php wp_nav_menu( array( 'container'=> false, 'theme_location' => 'Nav-2', 'menu_class' => 'footer-menu' ) ); ?>
     </nav>
 
     <div class="footer-copyright">
