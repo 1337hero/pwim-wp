@@ -7,13 +7,13 @@
         </video>
     </div>
 
-    <a href="#scrollto" class="scroll btn-scroll" >
+    <a href="#scrollto" class="scroll btn-scroll" data-aos="fade-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="500">
         <i class="fas fa-angle-double-down"></i>
     </a>
 
     <div class="jumbo-tron">
 
-            <div class="usp">
+            <div class="usp" data-aos="slide-right" data-aos-offset="300" data-aos-duration="800" data-aos-delay="200">
                 <div class="big-day">
                     <span>29</span>
                 </div>
@@ -21,7 +21,7 @@
                     <span class="month">April</span>
                     <span class="year">2019</span>
                 </div>
-                <div class="message">5 DAYS OF ADVENTURE IN MOAB</div>
+                <div class="message" >5 DAYS OF ADVENTURE IN MOAB</div>
 
             </div>        
 

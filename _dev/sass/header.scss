@@ -10,7 +10,7 @@
     background-color: $header-color;
     z-index: 1000;
 
-    @include transition(all .3s ease);
+    @include transition(all .3s ease-in-out);
 
     .wrapper {
         display: flex;
@@ -51,9 +51,16 @@
     color: $header-logo-color;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
 
+    @include respond-to(medium) {
+        font-size: 3.5rem;
+    }
+
     @include respond-to(large) {
         top:-10px;
-        font-size: 3.5rem;
+    }
+
+    &:hover {
+        color: $header-logo-color;
     }
 }
 
@@ -71,6 +78,11 @@
     background: transparent;
 
     z-index: 1001;
+
+    @include respond-to(medium) {
+        width: 95px;
+        height: 95px;
+    }
 
     .menu-icon {
         display: block;

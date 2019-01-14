@@ -1,10 +1,6 @@
 /* -------------------------- */
 /* ---    MAIN FOOTER     --- */
 /* -------------------------- */
-.footer-main {
-
-}
-
 .the-closing {
     padding: 40px 0;
 
@@ -17,6 +13,9 @@
             color: #fff;
         }
     }
+    div {
+        margin-bottom: 35px;
+    }
 
     h3 {
         padding-bottom: 10px;
@@ -24,7 +23,7 @@
         border-bottom: 1px dashed #6d6d6d;
         color: #6d6d6d;
         font-size: 24px;
-        @include respond-to(medium) {
+        @include respond-to(large) {
             display: inline-block;
             width: 380px;
             text-align: center;
@@ -35,8 +34,20 @@
         .wrapper {
             display: flex;
             flex-direction: row;
-            justify-content: space-around;
+            justify-content: space-between;
         }
+    }
+}
+
+.quick-links li {
+    margin: 10px 0;
+    
+    a {
+        padding: 5px 0;
+    }
+
+    &:nth-of-type(1) {
+        margin-top: 0;
     }
 }
 
@@ -45,7 +56,9 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
+
+        margin-bottom: 30px;
 
         a {
             display: flex;
@@ -55,13 +68,37 @@
             width: 49px;
             height: 49px;
 
-            background-color: $brand-color1;
-            border: 1px solid $brand-color1;
-            color: $brand-color2;
+            background-color: #ccc;
+            border: 1px solid #ccc;
+            color: $base-text-color;
 
             border-radius: 50%;
+
+            margin-right: 15px;
+
+            &:hover {
+                background-color: #fff;
+                color: #cd282f;
+            }
         }
+
     }
+    
+    i.fa.fa-envelope {
+        margin-right: 5px;
+    }
+    
+    li:nth-of-type(2),
+    li:nth-of-type(5) {
+        font-size: 1.375rem;
+        font-weight: 700;
+        color: #6d6d6d;
+    }
+
+    li:nth-of-type(4) {
+        margin-bottom: 20px;
+    }
+    
 }
 
 

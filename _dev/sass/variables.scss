@@ -1,22 +1,4 @@
 /* -------------------------- */
-/* ---    FONT STYLES     --- */
-/* -------------------------- */
-$default-font-size:  16px;
-
-// base fonts
-$base-font-family: 'Esteban', Georgia, 'Times New Roman', serif;
-$base-font-weight:  normal;
-$base-line-height:  1.7;
-$base-font-style:   normal;
-$base-font-size:    1rem;
-
-// title fonts
-$title-font-family:  'Montserrat', Helvetica, Arial, sans-serif;
-$title-font-size:     48px;
-$title-font-weight:   700;
-$title-font-color:    #0F0E0E;
-
-/* -------------------------- */
 /* - GLOBAL STYLES & COLORS - */
 /* -------------------------- */
 $brand-color1: #ffffff; //white
@@ -31,13 +13,36 @@ $header-color: $brand-color4;
 $footer-top: #292929;
 $footer-bottom: $header-color;
 
-
-
 $link-color:       rgb(85, 17, 20);
 $link-color-hover: #cd282f;
 
 $grey-color:       #aaa;
 $base-text-color: #0F0E0E;
+
+
+$easy-trails: #1e824c;
+$moderate-trails: #f15a22;
+$hard-trails: #cf000f;
+
+/* -------------------------- */
+/* ---    FONT STYLES     --- */
+/* -------------------------- */
+$default-font-size:  16px;
+
+// base fonts
+$base-font-family: 'Esteban', Georgia, 'Times New Roman', serif;
+$base-font-weight:  normal;
+$base-line-height:  1.8;
+$base-font-style:   normal;
+$base-font-size:    1.375rem;
+
+// title fonts
+$title-font-family:  'Montserrat', Helvetica, Arial, sans-serif;
+$title-font-size:     1.5rem;
+$title-font-weight:   700;
+$title-font-color:    $base-text-color;
+$title-font-spacing:  -1px;
+
 
 // Width of the content area
 $content-width:    800px;
@@ -66,7 +71,7 @@ $on-laptop:        800px;
 // breakpoints
 $breakpoints: (
   'small'  : ( min-width:  620px ),
-  'medium' : ( min-width:  820px ),
+  'medium' : ( min-width:  768px ),
   'large'  : ( min-width: 1024px ),
   'xlarge' : ( min-width: 1140px )
 );

@@ -8,7 +8,8 @@ $(function() {
     closeBtn     = $('.close-menu'),
     didScroll    = false,
     prevscroll   = 0,
-    sidebarNav   = $('.sidebar-navigation'),
+    sidebarNav   = $('#sidebar-navigation'),
+    sidebarOverlay = $('.sidebar-overlay'),
     hamburgerBtn = $('.menu-btn'),
     headerOffset = header.offset(),
     headerHeight = header.height()
@@ -25,13 +26,21 @@ $(function() {
         event.preventDefault();
         $(this).toggleClass('open');
         sidebarNav.toggleClass('open');
+        sidebarOverlay.toggleClass('open');
     }); 
 
     closeBtn.click(function(event){
         event.preventDefault();
         var obj=$(this).closest(sidebarNav);
         obj.removeClass('open');
-    });  
+    });
+
+    sidebarOverlay.click(function(event){
+        event.preventDefault();
+        hamburgerBtn.removeClass('open');
+        sidebarNav.removeClass('open');
+        $(this).removeClass('open');
+    });
 
 
      //basic page scroll     
@@ -48,8 +57,6 @@ $(function() {
             }, 1000);
           }
     });
-
-
 
     // SCROLLING + FIXING HEADER
     el.scroll(function() {
