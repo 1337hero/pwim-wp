@@ -1,2 +1,2 @@
 <?php
-include_once( get_template_directory() . '/_lib/engage.php' );
+include_once get_parent_theme_file_path( '/_lib/engage.php' );

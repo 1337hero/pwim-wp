@@ -112,8 +112,6 @@ a.btn-scroll {
 /* SUMMARY SECTION */
 .summary {
 
-    margin-bottom: 20px;
-
     .main-title {
         margin-bottom: 10px;
         padding-bottom: 10px;
@@ -186,17 +184,14 @@ a.btn-scroll {
             }
         }
     }
-    @include respond-to(large) {
-        padding: 40px 0 0;
-        margin-bottom: 80px;
-    }
 }
 
 /* ADDITIONAL SECTIONS */
 .sponsors,
 .details,
 .featured,
-.latest-news {
+.latest-news,
+.generic {
 
     h2 {
         margin-bottom: 40px;
@@ -244,7 +239,6 @@ a.btn-scroll {
     display: none;
     @include respond-to(large) {
         display: block;
-        margin-bottom: 80px;
     }
 
 }
@@ -267,9 +261,6 @@ a.btn-scroll {
 
 /* TRAIL LIST SECTION */
 @include respond-to(large) {
-    .details {
-        margin-bottom: 60px;
-    }
     .desktop-list {
         display: flex;
         flex-direction: row;
@@ -308,18 +299,45 @@ a.btn-scroll {
         h3 {
             display: inline-block;
             font-size: 1.25rem;
+            padding-left: 38px;
+
+            &:before {
+                content: "";
+                width: 28px;
+                height: 28px;
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+            }
         }
 
         h3.easy {
             color: $easy-trails;
+            &:before {
+                background: $easy-trails;
+                border-radius: 100%;
+            }
         }
 
         h3.moderate {
             color: $moderate-trails;
+            &:before {
+                background: $moderate-trails;
+            }
         }
 
         h3.hard {
             color: $hard-trails;
+            &:before {
+                background: $hard-trails;
+                -webkit-transform: translateY(-50%) rotate(45deg);
+                transform: translateY(-50%) rotate(45deg);
+                width: 25px;
+                height: 25px;
+            }
         }
     }
 
@@ -339,6 +357,27 @@ a.btn-scroll {
     }
 }
 
+.requirements {
+    position: relative;
+    clear: both;
+    padding: 25px 0 0;
+    margin: 35px 0 0;
+    border-top: 1px solid #c6c6c6;
+    font-size: 1rem;
+    .easy {
+        font-weight: 700;
+        color: $easy-trails;
+    }
+    .moderate {
+        font-weight: 700;
+        color: $moderate-trails;
+    }
+    .hard {
+        font-weight: 700;
+        color: $hard-trails;
+    }
+}
+
 /* SPONSORS SECTION */
 .sponsors {
 
@@ -351,7 +390,7 @@ a.btn-scroll {
         width: 100%;
 
         a {
-            margin-bottom: 25px;
+            margin-bottom: 50px;
 
             img {
                 width: 100%;
@@ -367,7 +406,8 @@ a.btn-scroll {
         }
 
         @include respond-to(large) { 
-            justify-content: space-between; 
+            align-items: center;
+            align-content: center;
         }
     }
     @include respond-to(medium) { 
@@ -378,10 +418,9 @@ a.btn-scroll {
 /* BLOG UPDATES SECTION */
 .latest-news {
     display: none;
-    margin-bottom: 80px;
-    @include respond-to(large) { 
-        display: block;
-    }
+    // @include respond-to(large) { 
+    //     display: block;
+    // }
 }
 
 .latest-posts {

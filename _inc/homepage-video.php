@@ -2,8 +2,8 @@
 <div class="hero-banner">
     <div class="video-container preload" >
         <video id="timelapse" muted autoplay loop preload="auto" class="video-banner preload" width="1920" height="1080" >
-            <source type="video/webm" data-src="<?php bloginfo('template_directory'); ?>/assets/videos/new-home.webm" />
-            <source type="video/mp4" data-src="<?php bloginfo('template_directory'); ?>/assets/videos/new-home.mp4" />           
+            <source type="video/webm" data-src="https://d1ztgczfr0nons.cloudfront.net/videos/pwim-video-01.webm" />
+            <source type="video/mp4" data-src="https://d1ztgczfr0nons.cloudfront.net/videos/pwim-video-01.mp4" />           
         </video>
     </div>
 

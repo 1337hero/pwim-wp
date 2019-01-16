@@ -19,7 +19,7 @@
 
                 <div>
                     <h3>Connect with Us</h3>
-                    <ul class="details">
+                    <ul class="contact-details">
                          <li class="share">
                             <a target="_blank" href="https://www.facebook.com/pwinmoab/" title="facebook">
                                 <i class="fab fa-facebook-f"></i>
@@ -50,7 +50,8 @@
     
     <div class="copyright">
         <div class="wrapper">
-            <span>Copyright 2019 © Offroad Treks, LLC </span><span class="divider">|</span><span> Designed & Built by <a href="https://mk3y.com/" target="_blank">Mike Key</a></span>
+            <span>Copyright 2019 © Offroad Treks, LLC </span><span class="divider">|</span><span> Website by <a href="https://mk3y.com/" target="_blank">Mike Key</a></span>
+            <span class="divider">|</span><span>Ram, & Power Wagon are registered trademarks of FCA US LLC.</span>
         </div>
     </div>
 
@@ -86,7 +87,7 @@
             <span>REGISTRATION IS OPEN</span>
         </div>
 
-        <a href="/2019-sign-up-form/" class="btn mobile-btn">REGISTER NOW</a>
+        <a href="/event-registration/" class="btn mobile-btn">REGISTER NOW</a>
     </div>
 </div>
 

@@ -49,7 +49,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-    margin: 0 0 10px 0;
+    margin: 0 0 25px 0;
 }
 
 a {
@@ -111,8 +111,21 @@ button {
 }
 
 .main {
-    padding-top: 20px;
+    padding-top: 25px;
     background-color: $default-bg-color;
+    @include respond-to(medium) {
+        padding-top: 45px;
+    }
+    @include respond-to(large) {
+        padding-top: 60px;
+    }
+}
+
+section {
+    margin-bottom: 60px;
+    @include respond-to(medium) {
+        margin-bottom: 80px;
+    }
 }
 
 .gradient-banner {
@@ -123,7 +136,7 @@ button {
     height: 100%;
 
     z-index: 100;
-    background: url(img/gradient-header.png) 0 0 repeat-x;
+    background: url(https://d1ztgczfr0nons.cloudfront.net/img/gradient-header.png) 0 0 repeat-x;
 
     display: none;
     pointer-events: none;
@@ -155,6 +168,7 @@ button {
     }
 
     @include respond-to(large) {
+        height: 420px;
         margin-top: 0;
     }
 }
@@ -167,6 +181,65 @@ button {
 
 
 // GLOBAL ELEMENTS
+.page-title {
+    margin-bottom: 35px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c6c6c6;
+    font-size: 1.625rem;
+
+
+    @include respond-to(medium) {
+        font-size: 2.8rem;
+    }
+
+    @include respond-to(large) {
+        font-size: 4rem;
+        text-align: center;
+        line-height: normal;
+
+        // reset
+        border-bottom: none;
+        padding-bottom: 0;
+
+        span {
+            display: inline-block;
+            background-color: $default-bg-color;
+            padding: 0 15px;
+            z-index: 2;
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            top: 1px;
+            bottom: 0;
+            left: .6em;
+            right: .6em;
+            z-index: 1;
+            border-top: 1px solid #c6c6c6;
+            margin-top: .6em;
+        }
+
+    }
+}
+
+// Margins 
+.xtra-margin {
+    margin-bottom: 35px;
+}
+
+.res-img {
+    display: none;
+    @include respond-to(medium) {
+        display: block;
+        img {
+            width: 100%;
+            object-fit: cover;
+            object-position: 50% 50%;
+        }
+    }
+}
+
 .btn {
     display: inline-block;
     height: 44px;
@@ -184,11 +257,12 @@ button {
     color: #fff;
 
     background-color: #cd282f;
-    border-bottom: 3px solid rgb(85, 17, 20);
+    border-bottom: 3px solid #551114;
 
     &:hover {
-        background-color: #131313;
-        border-bottom: 3px solid #000;
+        color: #fff;
+        background-color: #551114;
+        border-bottom: 3px solid #3a131b;
     }
     &.mobile-btn {
         height: 44px;
@@ -196,5 +270,11 @@ button {
 
         font-size: .777rem;
         line-height: 44px;
+    }
+    &.big-cta {
+        padding: 24px 35px 22px;
+        font-size: 1.325rem;
+        height: auto;
+        line-height: normal;
     }
 }

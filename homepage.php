@@ -20,43 +20,62 @@
       
         <main class="main" role="main">
 
-            <section id="scrollto" class="summary" >
+            <section id="scrollto" class="summary">
                 <div class="wrapper" data-aos="slide-up" data-aos-offset="40" data-aos-duration="800" data-aos-delay="0">
                     <h1 class="main-title">POWER WAGONS IN MOAB</h1>
                     <div class="details">
                         <span class="dates">April 29th - May 3rd</span>
-                        <a class="location" href="https://www.google.com/maps/place/Moab,+UT+84532/@38.5743927,-109.5864378,13z/data=!3m1!4b1!4m5!3m4!1s0x8747e1e59ab82d8d:0xb32b17af1d5c42d!8m2!3d38.5733155!4d-109.5498395" rel="nofollow" target="_blank">Moab, Utah, U.S.A</a>
+                        <span class="location">Moab, Utah, U.S.A</span>
                     </div>
 
-                    <div class="content">
-                        <p>Is it on your bucket list to experience Moab? Would you like to tackle some of Moab’s most famous trails but don’t want to go alone? Are you looking to learn new skills and conquer new challenges off-road? Do you own a Power Wagon?</p>
-                        <p>Then come join us at Power Wagons in Moab! No previous 4x4 experience is required. Our guides will lead you through some of the toughest to the most scenic trails iconic Moab has to offer. We'll provide you with tips and tricks to build your 4-wheeling skills and help you discover the full off-road capability of your Power Wagon. It’s an adventure like no other!</p>
-                        
+                    <?php get_template_part( '_inc/global', 'countdown') ?>
+
+                    <div class="content" data-aos="slide-up" data-aos-offset="40" data-aos-duration="800" data-aos-delay="100">
+                        <p>Located in Utah's eastern desert, Moab is one of the most breathtaking 4×4 destinations in the nation. During Power Wagons in Moab you will get to experience the red desert from mesa top to canyon bottom. </p>
+
+                        <p>Discover the full off-road capability of your Power Wagon over the course of 5 exhilarating days. You will make new friends, learn new skills and conquer new challenges off-road.</p>
+
+                        <p>If you are lacking previous 4x4 experience, don't worry.  This five day guided adventure will be lead by our experienced and friendly trail guides. Our guides will lead you through some of the toughest to the most scenic trails iconic Moab has to offer.  Their experience will help you to become confident off-road to tackle any terrain.</p>
+
+                        <p class="xtra-margin">It’s an adventure like no other!</p>
+                        <a href="/event-registration/" class="btn big-cta" title="Register Now">REGISTER NOW</a>
                     </div>
                 </div>
             </section>
 
-            <section class="featured" data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="0">
-                <div class="wrapper">
+            <section class="featured">
+                <div class="wrapper" data-aos="slide-up" data-aos-offset="40" data-aos-duration="800" data-aos-delay="100">
                     <h2><span>2018 HIGHLIGHTS</span></h2>
                     <ul class="highlights">
-                        <li><img src="<?php bloginfo('template_directory'); ?>/assets/img/highlights/thumb-01.jpg"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/assets/img/highlights/thumb-02.jpg"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/assets/img/highlights/thumb-03.jpg"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/assets/img/highlights/thumb-04.jpg"></li>
-                        <li><img src="<?php bloginfo('template_directory'); ?>/assets/img/highlights/thumb-05.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="200"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-09.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="300"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-07.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="400"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-04.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="500"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-03.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="600"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-02.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="700"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-05.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="800"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-01.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="900"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-10.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="1000"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-06.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="1100"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-08.jpg"></li>
                     </ul>
                 </div>
             </section>
             
-            <section class="details" data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="0">
-                <div class="wrapper">
-                    <h2><span>TRAIL LIST<span></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <section class="details" >
+                <div class="wrapper" data-aos="slide-up" data-aos-offset="100" data-aos-duration="800" data-aos-delay="100">
+                    <h2><span>THIS YEARS TRAILS</span></h2>
+
+                    <p>No matter your level of experience you'll find something for you at this years event. For each day you can select from a choice of three trail ratings (Easy, Moderate or Hard). </p>
+
+                    <p>Each of the trails offer their own unique experience. Every day will offer amazing views, fun adventure, and memories that will last a lifetime. There is nothing like hitting the trail with your fellow Power Wagon owners!</p>
+
+                        <p><strong>NOTE*</strong> <i>This list is preliminary, while awaiting approval from the BLM for all permitting and is subject to change.</i></p>
+
+
                     <div class="desktop-list">
                         <ul class="trail-list"  data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="100">
                             <li class="level">
-                                <i class="fas fa-map-signs"></i><h3 class="easy">EASY TRAILS</h3>
+                                <h3 class="easy">EASY</h3>
                             </li>
                             <li>
                                 <i class="fas fa-circle"></i> Canyonlands Loop
@@ -76,7 +95,7 @@
                         </ul>
                         <ul class="trail-list" data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="200">
                             <li class="level">
-                                <i class="fas fa-map-signs"></i><h3 class="moderate">MODERATE TRAIL</h3>
+                                <h3 class="moderate">MODERATE</h3>
                             </li>
                             <li>
                                 <i class="fas fa-circle"></i> Tip Toe thru Hell's Revenge
@@ -97,7 +116,7 @@
       
                         <ul class="trail-list last" data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="300">
                             <li class="level">
-                                <i class="fas fa-map-signs"></i><h3 class="hard">HARDCORE TRAILS</h3></li>
+                                <h3 class="hard">DIFFICULT</h3></li>
                             <li>
                                 <i class="fas fa-circle"></i> Poison Spider & Where Eagles Dare</li>
                             <li>
@@ -105,7 +124,7 @@
                             <li>
                                 <i class="fas fa-circle"></i> Hell's Revenge (Full Challenge)</li>
                             <li>
-                                <i class="fas fa-circle"></i> Metal Masher</li>
+                                <i class="fas fa-circle"></i> Behind The Rocks</li>
                             <li>
                                 <i class="fas fa-circle"></i> Moab Rim</li>
                         </ul>  
@@ -113,24 +132,7 @@
                 </div>
             </section>
 
-            <section class="sponsors" data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="0">
-                <div class="wrapper">
-                    <h2><span>OUR PARTNERS</span></h2>
-                    
-                    <div class="logos">
-                        <a href="https://www.aev-conversions.com/" target="_blank" rel="nofollow">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/img/sponsors/logo-aev.png">
-                        </a>
-                        <a href="" target="_blank" rel="nofollow">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/img/sponsors/logo-maple.png">
-                        </a>
-                        <a href="" target="_blank" rel="nofollow">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/img/sponsors/logo-opp.png">
-                        </a>
-                    </div>
-                    
-                </div>
-            </section>
+            <?php get_template_part( '_inc/global', 'sponsors') ?>
 
             <section class="latest-news" data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="0">
                 <div class="wrapper">
@@ -139,20 +141,21 @@
                     <div class="latest-posts">
                         <?php $the_query = new WP_Query( 'posts_per_page=3' ); ?>
                         <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
-                        
-                        <a class="post" href="href="<?php the_permalink() ?>">
+                        <div class="post">
                             <div class="post-img">
+                                <a href="<?php the_permalink() ?>">
                                 <?php if ( has_post_thumbnail() ) {
-                                        the_post_thumbnail();
+                                        the_post_thumbnail( 'homepage-thumb' );
                                     } else { ?>
-                                        <img src="<?php bloginfo('template_directory'); ?>/images/image-placeholder.jpg" alt="<?php the_title(); ?>" />
+                                        <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/img/default-bg.jpg" alt="<?php the_title(); ?>" />
                                 <?php } ?>
+                                </a>
                             </div>
                             <div class="post-content">
                                 <h4><?php the_title(); ?></h4>
                                 <p><?php the_excerpt(); ?></p>
                             </div>
-                        </a>
+                        </div>
 
                         <?php endwhile; wp_reset_postdata(); ?>
 

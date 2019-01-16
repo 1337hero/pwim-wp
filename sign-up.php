@@ -20,20 +20,21 @@
         <?php get_template_part( '_inc/global',  'banner' ) ?>
     
         <main class="main" role="main">
-            <div class="wrapper wrapper-pad">
-                
-                <h1 class="section-title"><span><?php the_title(); ?><span></h1>
+            <section class="sign-up">
+                <div class="wrapper">
+    
+                    <h1 class="section-title"><span><?php the_title(); ?><span></h1>
 
-                <?php while ( have_posts() ) : the_post(); ?> 
+                    <?php while ( have_posts() ) : the_post(); ?> 
 
-                <article class="post post-repeat">
-                        <div class="entry-content-page">
-                            <?php the_content(); ?> 
-                        </div>
-                </article>
-                <?php endwhile; wp_reset_query(); ?>
-            </div>
-
+                    <article class="post post-repeat">
+                            <div class="entry-content-page">
+                                <?php the_content(); ?> 
+                            </div>
+                    </article>
+                    <?php endwhile; wp_reset_query(); ?>
+                </div>
+            </section>
         </main>
 
         <?php get_template_part( '_inc/global', 'footer') ?>

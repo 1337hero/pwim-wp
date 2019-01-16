@@ -1,10 +1,10 @@
 <div class="count-down">
-  <ul>
-    <li><span id="days"></span>days</li>
-    <li><span id="hours"></span>Hours</li>
-    <li><span id="minutes"></span>Minutes</li>
-    <li><span id="seconds"></span>Seconds</li>
-  </ul>
+
+    <div><span id="days"></span><div class="smalltext">Days</div></div>
+    <div><span id="hours"></span><div class="smalltext">Hours</div></div>
+    <div><span id="minutes"></span><div class="smalltext">Minutes</div></div>
+    <div><span id="seconds"></span><div class="smalltext">Seconds</div></div>
+
 </div>
 
 

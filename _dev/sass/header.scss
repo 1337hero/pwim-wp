@@ -10,7 +10,7 @@
     background-color: $header-color;
     z-index: 1000;
 
-    @include transition(all .3s ease-in-out);
+    @include transition(background-color .3s ease-in-out);
 
     .wrapper {
         display: flex;
@@ -190,6 +190,12 @@
                 @include transition(all .3s ease-in-out);
 
                 &:hover {
+                    border-color: $header-menu-color;
+                }
+            }
+
+            &.current-menu-item {
+                a:not(.btn) {
                     border-color: $header-menu-color;
                 }
             }

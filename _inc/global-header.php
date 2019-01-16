@@ -1,5 +1,5 @@
-<header class="header-main" data-aos="fade-down" data-aos-offset="0" data-aos-duration="600" data-aos-delay="0"> 
-    <div class="wrapper">
+<header class="header-main"> 
+    <div class="wrapper" data-aos="fade-down" data-aos-offset="0" data-aos-duration="600" data-aos-delay="0">
 
         <a href="/" class="logo">
             <span>PWIM</span>
@@ -15,7 +15,7 @@
                     )
                 );?>
                 <li>
-                    <a href="/2019-sign-up-form/" class="btn" title="Register Now">REGISTER</a>
+                    <a href="/event-registration/" class="btn" title="Register Now">REGISTER</a>
                 </li>
             </ul>
         </nav>
