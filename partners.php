@@ -29,6 +29,20 @@
             
             <section class="sponsors" data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="0">
                 <div class="wrapper">
+                    <h2><span>TITLE PARTNERS</span></h2>
+                    <div class="logos title">
+                        
+                        <!-- Thuren -->
+                        <a href="https://www.thurenfabrication.com/" target="_blank">
+                            <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-thuren.png">
+                        </a>
+                    
+                    </div>            
+                </div>
+            </section>
+
+            <section class="sponsors" data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="0">
+                <div class="wrapper">
                     <h2><span>PREMIER PARTNERS</span></h2>
                                 
                     <div class="logos">
@@ -47,11 +61,6 @@
                         <a href="#" target="_blank">
                             <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-maple.png">
                         </a>
-                                                       
-                        <!-- U4WDA -->              
-                        <a href="http://u4wda.org/" target="_blank" rel="nofollow">
-                            <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-u4wda.png">
-                        </a>
 
                     </div>
                                 
@@ -64,7 +73,10 @@
                                 
                     <div class="logos">
 
-
+                        <!-- U4WDA -->              
+                        <a href="http://u4wda.org/" target="_blank" rel="nofollow">
+                            <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-u4wda.png">
+                        </a>
 
 
                     </div>

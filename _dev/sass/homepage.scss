@@ -445,8 +445,10 @@ a.btn-scroll {
 
             @include respond-to(medium) { 
                 max-width: 300px;
+
             }
         }
+
         @include respond-to(medium) { 
             justify-content: space-around;
         }
@@ -455,6 +457,17 @@ a.btn-scroll {
             align-items: center;
             align-content: center;
         }
+    
+        &.title {
+
+            @include respond-to(medium) { 
+                a {
+                   max-width: 430px; 
+                }
+                
+            }    
+        }
+
     }
     @include respond-to(medium) { 
         margin-bottom: 60px;
