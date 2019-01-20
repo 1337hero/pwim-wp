@@ -32,27 +32,26 @@
                     <h2><span>PREMIER PARTNERS</span></h2>
                                 
                     <div class="logos">
+                       
+                        <!-- OPP -->            
+                        <a href="https://offroadpowerproducts.com/" target="_blank" data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="300">
+                            <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-opp.png">
+                        </a>
 
                         <!-- AEV -->
-                        <a href="https://www.aev-conversions.com/" target="_blank" rel="nofollow">
+                        <a href="https://www.aev-conversions.com/" target="_blank">
                             <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-aev.png">
                         </a>
                         
-                        <!-- OPP -->            
-                        <!-- <a href="#" target="_blank" rel="nofollow" data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="300">
-                            <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-opp.png">
-                        </a> -->
-                               
+                        <!-- Maple Offroad -->
+                        <a href="#" target="_blank">
+                            <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-maple.png">
+                        </a>
+                                                       
                         <!-- U4WDA -->              
                         <a href="http://u4wda.org/" target="_blank" rel="nofollow">
                             <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-u4wda.png">
                         </a>
-                        
-                        <!-- Maple Offroad -->
-                        <a href="#" target="_blank" rel="nofollow">
-                            <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-maple.png">
-                        </a>
-
 
                     </div>
                                 

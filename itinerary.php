@@ -53,7 +53,7 @@
             <section class="generic" data-aos="slide-up" data-aos-offset="40" data-aos-duration="800" data-aos-delay="100">
                 <div class="wrapper">
                     <h2><span>Trail Registration & Info</span></h2>
-                    <p>No matter your level of experience you'll find something for you at this years event. For each day you can select from a choice of three trail ratings (Easy, Moderate or Hard). </p>
+                    <p>No matter your level of experience you'll find something for you at this year's event. For each day you can select from a choice of three trail ratings (Easy, Moderate or Difficult). </p>
 
                     <p>Each of the trails offer their own unique experience. Every day will offer amazing views, fun adventure, and memories that will last a lifetime.</p> 
 
@@ -67,7 +67,7 @@
 
             <section class="details" >
                 <div class="wrapper" data-aos="slide-up" data-aos-offset="40" data-aos-duration="800" data-aos-delay="100">
-                    <h2><span>THIS YEARS TRAILS</span></h2>
+                    <h2><span>2019 TRAILS</span></h2>
                     <div class="res-img"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/featured-trails.jpg" alt="Power Wagon on Hells Revenge"></div>
                     <div class="desktop-list">
                         <ul class="trail-list" data-aos="slide-up" data-aos-offset="400" data-aos-duration="800" data-aos-delay="100">
@@ -138,20 +138,20 @@
                 </div>
             </section>
 
-            <section class="generic">
+           <!--  <section class="generic">
                 <div class="wrapper" data-aos="slide-up" data-aos-offset="40" data-aos-duration="800" data-aos-delay="500">
-                    <h2><span>SPECIAL RAFFLE</span></h2>
+                    <h2><span>SPECIAL SOMETHING</span></h2>
                         <center><p><h3>Wednesday, May 1st</h3></p>
-                          <!-- U4WDA -->              
+                                      
                             <a href="http://u4wda.org/" target="_blank" rel="nofollow" data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="400">
                                 <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-u4wda.png">
                             </a>
                         </center>
                         
-                        <p>We’re excited to partner with some new and some of the best known names in the industry to support the Utah 4 Wheel Drive Association. The Utah 4 Wheel Drive Association (U4WDA) is a non-profit organization dedicated to protecting access to public lands through education and stewardship. Our partners are donating some amazing prizes to be raffled off, with all benefits being collected by the U4WDA and used to aid in the fight for land use local to the state of Utah.</p>
+                        <p>We’re excited to partner with some new and some of the best known names in the industry to support the Utah 4 Wheel Drive Association. The Utah 4 Wheel Drive Association (U4WDA) is a non-profit organization dedicated to protecting access to public lands through education and stewardship. Our partners are donating some amazing prizes to be offered up, with all benefits being collected by the U4WDA and used to aid in the fight for land use local to the state of Utah.</p>
                         <p>And what better place to hold such a raffle than the iconic Potato Salad Hill? A popular single obstacle, the hill offers a variety of challenging lines for novice to experienced offroaders. Take a chance on the hill and then take a chance at winning one of several prizes, some holding a retail value well over $1,000! Everyone who makes it up Potato Salad Hill will walk away with something, but those raffle prizes will be something to write home about.</p>
                 </div>
-            </section>
+            </section> -->
 
             <section class="generic">
                 <div class="wrapper" data-aos="slide-up" data-aos-offset="40" data-aos-duration="800" data-aos-delay="500">

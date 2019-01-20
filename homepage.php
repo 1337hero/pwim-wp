@@ -63,9 +63,9 @@
             
             <section class="details" >
                 <div class="wrapper" data-aos="slide-up" data-aos-offset="100" data-aos-duration="800" data-aos-delay="100">
-                    <h2><span>THIS YEARS TRAILS</span></h2>
+                    <h2><span>2019 TRAILS</span></h2>
 
-                    <p>No matter your level of experience you'll find something for you at this years event. For each day you can select from a choice of three trail ratings (Easy, Moderate or Hard). </p>
+                    <p>No matter your level of experience you'll find something for you at this years event. For each day you can select from a choice of three trail ratings (Easy, Moderate or Difficult). </p>
 
                     <p>Each of the trails offer their own unique experience. Every day will offer amazing views, fun adventure, and memories that will last a lifetime. There is nothing like hitting the trail with your fellow Power Wagon owners!</p>
 
