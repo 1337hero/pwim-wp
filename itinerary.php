@@ -34,11 +34,11 @@
                 <div class="wrapper" data-aos="slide-up" data-aos-offset="40" data-aos-duration="800" data-aos-delay="100">
                     <h2><span>2018 HIGHLIGHTS</span></h2>
                     <ul class="highlights">
-                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="200"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-11.jpg"></li>
-                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="300"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-12.jpg"></li>
-                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="400"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-13.jpg"></li>
-                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="500"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-14.jpg"></li>
-                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="600"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-15.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="200"><img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/featured-thumbs/thumb-11.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="300"><img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/featured-thumbs/thumb-12.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="400"><img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/featured-thumbs/thumb-13.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="500"><img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/featured-thumbs/thumb-14.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="600"><img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/featured-thumbs/thumb-15.jpg"></li>
                     </ul>
                 </div>
             </section>
@@ -68,7 +68,7 @@
             <section class="details" >
                 <div class="wrapper" data-aos="slide-up" data-aos-offset="40" data-aos-duration="800" data-aos-delay="100">
                     <h2><span>2019 TRAILS</span></h2>
-                    <div class="res-img"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/featured-trails.jpg" alt="Power Wagon on Hells Revenge"></div>
+                    <div class="res-img"><img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/featured-thumbs/featured-trails.jpg" alt="Power Wagon on Hells Revenge"></div>
                     <div class="desktop-list">
                         <ul class="trail-list" data-aos="slide-up" data-aos-offset="400" data-aos-duration="800" data-aos-delay="100">
                             <li class="level">
@@ -144,7 +144,7 @@
                         <center><p><h3>Wednesday, May 1st</h3></p>
                                       
                             <a href="http://u4wda.org/" target="_blank" rel="nofollow" data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="400">
-                                <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-u4wda.png">
+                                <img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/partner-logos/logo-u4wda.png">
                             </a>
                         </center>
                         

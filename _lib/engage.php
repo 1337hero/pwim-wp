@@ -32,11 +32,11 @@ function load_theme() {
     wp_enqueue_style( 'aos', get_stylesheet_directory_uri() . '/assets/aos.min.css' );
 
     // PRODUCTION MODE
-    //wp_register_script( 'scripts', 'https://d1ztgczfr0nons.cloudfront.net/assets/scripts.min.js' );
-    //wp_register_script( 'video',   'https://d1ztgczfr0nons.cloudfront.net/assets/video.js' );
+    //wp_register_script( 'scripts', 'https://cdn.powerwagonsinmoab.com/assets/scripts.min.js' );
+    //wp_register_script( 'video',   'https://cdn.powerwagonsinmoab.com/assets/video.js' );
 
-    //wp_enqueue_style( 'main-styling', 'https://d1ztgczfr0nons.cloudfront.net/assets/styles.min.css' );
-    //wp_enqueue_style( 'aos', 'https://d1ztgczfr0nons.cloudfront.net/assets/aos.min.css' );
+    //wp_enqueue_style( 'main-styling', 'https://cdn.powerwagonsinmoab.com/assets/styles.min.css' );
+    //wp_enqueue_style( 'aos', 'https://cdn.powerwagonsinmoab.com/assets/aos.min.css' );
 
     // Inject the theme scripts into the footer
     wp_enqueue_script(  'scripts', '', '', '', true ); 

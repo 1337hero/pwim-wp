@@ -47,16 +47,16 @@
                 <div class="wrapper" data-aos="slide-up" data-aos-offset="40" data-aos-duration="800" data-aos-delay="100">
                     <h2><span>2018 HIGHLIGHTS</span></h2>
                     <ul class="highlights">
-                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="200"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-09.jpg"></li>
-                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="300"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-07.jpg"></li>
-                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="400"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-04.jpg"></li>
-                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="500"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-03.jpg"></li>
-                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="600"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-02.jpg"></li>
-                        <li data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="700"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-05.jpg"></li>
-                        <li data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="800"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-01.jpg"></li>
-                        <li data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="900"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-10.jpg"></li>
-                        <li data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="1000"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-06.jpg"></li>
-                        <li data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="1100"><img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/featured-thumbs/thumb-08.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="200"><img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/featured-thumbs/thumb-09.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="300"><img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/featured-thumbs/thumb-07.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="400"><img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/featured-thumbs/thumb-04.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="500"><img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/featured-thumbs/thumb-03.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="60" data-aos-duration="800" data-aos-delay="600"><img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/featured-thumbs/thumb-02.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="700"><img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/featured-thumbs/thumb-05.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="800"><img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/featured-thumbs/thumb-01.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="900"><img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/featured-thumbs/thumb-10.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="1000"><img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/featured-thumbs/thumb-06.jpg"></li>
+                        <li data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="1100"><img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/featured-thumbs/thumb-08.jpg"></li>
                     </ul>
                 </div>
             </section>
@@ -147,7 +147,7 @@
                                 <?php if ( has_post_thumbnail() ) {
                                         the_post_thumbnail( 'homepage-thumb' );
                                     } else { ?>
-                                        <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/img/default-bg.jpg" alt="<?php the_title(); ?>" />
+                                        <img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/img/default-bg.jpg" alt="<?php the_title(); ?>" />
                                 <?php } ?>
                                 </a>
                             </div>

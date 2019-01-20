@@ -24,7 +24,7 @@
                                     <?php if ( has_post_thumbnail() ) {
                                         the_post_thumbnail('post-thumbnail', array('class' => 'lazy'));
                                         } else { ?>
-                                        <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/img/default-bg.jpg" alt="<?php the_title(); ?>" />
+                                        <img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/img/default-bg.jpg" alt="<?php the_title(); ?>" />
                                     <?php } ?>
                                 </a>
                             </div>

@@ -2,8 +2,8 @@
 <div class="hero-banner">
     <div class="video-container preload" >
         <video id="timelapse" muted autoplay loop preload="auto" class="video-banner preload" width="1920" height="1080" >
-            <source type="video/webm" data-src="https://d1ztgczfr0nons.cloudfront.net/videos/pwim-video-01.webm" />
-            <source type="video/mp4" data-src="https://d1ztgczfr0nons.cloudfront.net/videos/pwim-video-01.mp4" />           
+            <source type="video/webm" data-src="https://cdn.powerwagonsinmoab.com/videos/pwim-video-01.webm" />
+            <source type="video/mp4" data-src="https://cdn.powerwagonsinmoab.com/videos/pwim-video-01.mp4" />           
         </video>
     </div>
 
@@ -28,7 +28,7 @@
             <div class="video-logos" data-aos="slide-left" data-aos-offset="0" data-aos-duration="800" data-aos-delay="200">
                 <span>Made Possible By</span>
                 <a class="thuren" href="https://www.thurenfabrication.com/" target="_blank">
-                    <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-thuren.png">
+                    <img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/partner-logos/logo-thuren.png">
                 </a>
                 
                 <!-- <a class="opp" href="https://offroadpowerproducts.com/" target="_blank">

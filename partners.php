@@ -34,7 +34,7 @@
                         
                         <!-- Thuren -->
                         <a href="https://www.thurenfabrication.com/" target="_blank">
-                            <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-thuren.png">
+                            <img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/partner-logos/logo-thuren.png">
                         </a>
                     
                     </div>            
@@ -49,17 +49,17 @@
                        
                         <!-- OPP -->            
                         <a href="https://offroadpowerproducts.com/" target="_blank" data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="300">
-                            <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-opp.png">
+                            <img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/partner-logos/logo-opp.png">
                         </a>
 
                         <!-- AEV -->
                         <a href="https://www.aev-conversions.com/" target="_blank">
-                            <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-aev.png">
+                            <img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/partner-logos/logo-aev.png">
                         </a>
                         
                         <!-- Maple Offroad -->
                         <a href="#" target="_blank">
-                            <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-maple.png">
+                            <img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/partner-logos/logo-maple.png">
                         </a>
 
                     </div>
@@ -75,7 +75,7 @@
 
                         <!-- U4WDA -->              
                         <a href="http://u4wda.org/" target="_blank" rel="nofollow">
-                            <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-u4wda.png">
+                            <img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/partner-logos/logo-u4wda.png">
                         </a>
 
 

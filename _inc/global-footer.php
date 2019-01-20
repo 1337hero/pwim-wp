@@ -93,3 +93,5 @@
 
    
 <?php wp_footer(); ?>
+
+<?php get_template_part( '_inc/scripts' ) ?>
