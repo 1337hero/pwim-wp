@@ -4,23 +4,28 @@
                     
         <div class="logos">
 
+            <!-- Thuren -->
+            <a href="https://www.thurenfabrication.com/" target="_blank">
+                <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-thuren.png">
+            </a>
+
             <!-- OPP -->            
-            <a href="https://offroadpowerproducts.com/" target="_blank" data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="300">
+            <a href="https://offroadpowerproducts.com/" target="_blank">
                 <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-opp.png">
             </a>
 
             <!-- AEV -->
-            <a href="https://www.aev-conversions.com/" target="_blank" data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="100">
+            <a href="https://www.aev-conversions.com/" target="_blank">
                 <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-aev.png">
             </a>
                            
             <!-- Maple Offroad -->
-            <a href="#" target="_blank" data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="200">
+            <a href="http://mapleoffroad.com/" target="_blank">
                 <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-maple.png">
             </a>
 
             <!-- U4WDA -->              
-            <a href="http://u4wda.org/" target="_blank" data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="400">
+            <a href="http://u4wda.org/" target="_blank">
                 <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-u4wda.png">
             </a>
 

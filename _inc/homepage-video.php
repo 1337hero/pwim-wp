@@ -23,7 +23,18 @@
                 </div>
                 <div class="message" >5 DAYS OF ADVENTURE IN MOAB</div>
 
-            </div>        
+            </div>     
+
+            <div class="video-logos" data-aos="slide-left" data-aos-offset="0" data-aos-duration="800" data-aos-delay="200">
+                <span>Made Possible By</span>
+                <a class="thuren" href="https://www.thurenfabrication.com/" target="_blank">
+                    <img class="lazy" data-src="https://d1ztgczfr0nons.cloudfront.net/partner-logos/logo-thuren.png">
+                </a>
+                
+                <!-- <a class="opp" href="https://offroadpowerproducts.com/" target="_blank">
+                    <img class="lazy" data-src="https://offroadpowerproducts.com/media/logo/stores/1/OPP-Logo_Web_Full_Color.png">
+                </a> -->
+            </div>   
 
     </div>
 

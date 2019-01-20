@@ -33,9 +33,9 @@
 
     .usp {
         position: absolute;
-        bottom: 120px;
+        bottom: 80px;
         left: 20px;
-        width: 475px;
+        width: 450px;
         height: 260px;
 
         display: flex;
@@ -64,8 +64,8 @@
 
     .big-day {
         align-self: flex-start;
-        font-size: 12rem;
-        height: 220px;
+        font-size: 11rem;
+        height: 165px;
     }
 
     .mon-yr {
@@ -75,14 +75,14 @@
 
     .month {
         position: relative;
-        top: 40px;
-        font-size: 5rem;
+        top: 30px;
+        font-size: 4.5rem;
     }
     .year {
         position: relative;
         top: 25px;
-        font-size: 3.785rem;
-        letter-spacing: 20px
+        font-size: 3.5rem;
+        letter-spacing: 18px
     }
     .message {
         width: 100%;
@@ -90,6 +90,52 @@
         border-top: 1px solid rgba(255,255,255,.7);
         padding-top: 10px;
     }
+}
+
+.video-logos {
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include respond-to(xlarge) {
+        bottom: 50px;
+    }
+
+    @include respond-to(xlarge) {
+        right: 50px;
+    }
+
+
+    span {
+        display: block;
+        font-size: 1.5rem;
+        text-align: center;
+
+        color: $brand-color1;
+        font-family: $title-font-family;
+        line-height: normal;
+
+        text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
+    }
+
+    a {
+        position: relative;
+        // max-width: 328px;
+
+        &.opp {
+            left: -23px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
 }
 
 // scroll btn
