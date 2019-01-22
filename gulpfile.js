@@ -1,7 +1,7 @@
 // Mike's PWIM Gulp Workflow
 'use strict';
 
-// Require our stuff
+// REQUIRED STUFF
 var    gulp = require('gulp'),
 browserSync = require('browser-sync').create(),
    cleanCSS = require('gulp-clean-css'),
@@ -9,11 +9,12 @@ browserSync = require('browser-sync').create(),
      uglify = require('gulp-uglify'),
      rename = require('gulp-rename'),
       gutil = require('gulp-util'),
+       sftp = require('gulp-sftp-up4'),
        sass = require('gulp-sass'),
        maps = require('gulp-sourcemaps');
 
 
-// Set those paths
+// SETUP PATHS
 const base_path = './',
             src = base_path + '_dev',
            dist = base_path + 'assets',
@@ -24,7 +25,7 @@ const base_path = './',
           };
 
 
-// Do important stuff with SASS
+// BUILD CRITICAL CSS
 gulp.task('makeCRITICAL', () => {
     return gulp.src(paths.critical)
         .pipe(sass())
@@ -38,7 +39,7 @@ gulp.task('makeCRITICAL', () => {
 });
 
 
-// Do stuff with SASS
+// BUILD STYLES CSS
 gulp.task('makeCSS', () => {
     return gulp.src(paths.scss)
         .pipe(maps.init())
@@ -51,7 +52,7 @@ gulp.task('makeCSS', () => {
 });
 
 
-// Do stuff with Javascript
+// BUILD SCRIPTS JS
 gulp.task('makeJS', () => {
     return gulp.src(paths.js)
         .pipe(maps.init())
@@ -65,7 +66,7 @@ gulp.task('makeJS', () => {
 });
 
 
-// Setup a Gulp Server with Browser Sync
+// RUN A SERVER WITH BROWSER SYNC
 gulp.task('serve', ['makeCRITICAL', 'makeCSS', 'makeJS'], function() {
     browserSync.init({
         proxy: 'http://pwim.beta/'
@@ -78,6 +79,19 @@ gulp.task('serve', ['makeCRITICAL', 'makeCSS', 'makeJS'], function() {
 });
 
 
-// Do this stuff by default
+// DEPLOY TO OUR SERVER JUST THE WORDPRESS THEME
+gulp.task('sftp', function () {
+    return gulp.src(['./**', '!./_dev/**', '!./node_modules/**'])
+        .pipe(sftp({
+            host: '138.68.233.224',
+            port: '7989',
+            remotePath: '/var/www/pwim/public_html/app/themes/pwim/',
+            auth: 'privateKeyCustom'
+        }));
+});
+
+
+// DO THESE THINGS WHEN I SAY SO
 gulp.task('default', ['serve']);
 gulp.task('build', ['makeCRITICAL', 'makeCSS', 'makeJS']);
+gulp.task('deploy', ['sftp']);
