@@ -31,9 +31,9 @@
                     <img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/partner-logos/logo-thuren.png">
                 </a>
                 
-                <!-- <a class="opp" href="https://offroadpowerproducts.com/" target="_blank">
-                    <img class="lazy" data-src="https://offroadpowerproducts.com/media/logo/stores/1/OPP-Logo_Web_Full_Color.png">
-                </a> -->
+                <a class="wkor" href="https://white-knuckleoffroad.com/" target="_blank">
+                    <img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/partner-logos/logo-wk-white.png">
+                </a>
             </div>   
 
     </div>

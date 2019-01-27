@@ -20,6 +20,10 @@ You'll want to look inside /_lib/engage.php to see what is going on with the Dev
 
 **I make no warranties and will not provide instructions for this theme.**
 
+Resources:
+
+
+
 [1]: https://mk3y.com
 [2]: https://1337hero.com
 [3]: https://powerwagonsinmoab.com

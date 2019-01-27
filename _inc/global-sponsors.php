@@ -8,6 +8,11 @@
             <a href="https://www.thurenfabrication.com/" target="_blank">
                 <img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/partner-logos/logo-thuren.png">
             </a>
+            
+            <!-- WKOR -->            
+            <a href="https://white-knuckleoffroad.com/" target="_blank">
+                <img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/partner-logos/logo-wk-color.png">
+            </a>
 
             <!-- OPP -->            
             <a href="https://offroadpowerproducts.com/" target="_blank">
