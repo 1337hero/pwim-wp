@@ -54,7 +54,7 @@
                        
                         <!-- OPP -->            
                         <a href="https://offroadpowerproducts.com/" target="_blank" data-aos="slide-up" data-aos-offset="0" data-aos-duration="800" data-aos-delay="300">
-                            <img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/partner-logos/logo-opp.png">
+                            <img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/partner-logos/logo-opp-01.png">
                         </a>
 
                         <!-- Squatchboxx -->            
