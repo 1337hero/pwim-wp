@@ -28,7 +28,12 @@
             <a href="https://www.aev-conversions.com/" target="_blank">
                 <img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/partner-logos/logo-aev.png">
             </a>
-                           
+                
+            <!-- Synergy -->
+            <a href="https://www.synergymfg.com/" target="_blank">
+                <img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/partner-logos/logo-synergy.png">
+            </a>
+
             <!-- Maple Offroad -->
             <a href="http://mapleoffroad.com/" target="_blank">
                 <img class="lazy" data-src="https://cdn.powerwagonsinmoab.com/partner-logos/logo-maple.png">
